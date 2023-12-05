@@ -24,6 +24,14 @@
     #plus{
         display: block;
     }
+    
+    h5{
+        display: block;
+    }
+
+    .line{
+        display: block;
+    }
 
     .categories > li{
         flex-basis: calc(100% / 3);
