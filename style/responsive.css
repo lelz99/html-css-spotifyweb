@@ -1,0 +1,31 @@
+/* Version S 640px */
+
+@media screen and (min-width: 640px) {
+    .sidebar{
+        flex-basis: 220px;
+    }
+
+    #logo-small{
+        display: none;
+    }
+
+    #logo-big{
+        display: block;
+    }
+
+    li > img{
+        margin: 5px 0;
+    }
+
+    ul > li > p{
+        display: block;
+    }
+    
+    #plus{
+        display: block;
+    }
+
+    .categories > li{
+        flex-basis: calc(100% / 3);
+    }
+}
