@@ -12,3 +12,183 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    color: white;
+}
+
+.padding{
+    padding: 20px;
+}
+
+/* Generics */
+
+section{
+    margin: 40px 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+h4{
+    margin-top: 10px;
+    color: #7a7d81;
+    font-size: 0.8rem;
+}
+
+.col > h4{
+    text-align: center;
+}
+
+h5{
+    color: white;
+}
+
+/* Top Content */
+
+.top-content{
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+   flex-basis: 50px;
+   flex-shrink: 0;
+   background-color: black;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+li > img{
+    width: 30px;
+    margin: 5px auto;
+}
+
+#logo-big{
+    display: none;
+}
+
+#logo-small{
+    width: 40px;
+    margin: 10px auto;
+}
+
+ul > li{
+    display: flex;
+    align-items: center;
+}
+
+ul > li > p{
+    display: none;
+}
+
+#plus{
+    display: none;
+}
+
+#download{
+    width: 20px;
+}
+
+.user{
+    background-color: gray;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Main */
+
+main{
+   flex-grow: 1;
+   overflow: auto;
+   background-color: #141922;
+}
+
+/* header */
+
+header{
+    height: 60px;
+    background-color: #080b12;
+
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+/* Categories */
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories > li{
+    flex-basis: calc(100% / 4);
+    margin: 20px 0;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+.categories > li > a{
+    color: #7b7e82;
+}
+
+/* Recently Played */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col{
+    flex-basis: calc(100% / 2);
+    padding: 0 10px;
+}
+
+.card{
+    margin: 10px 0;
+}
+
+/* For You */
+
+/* Popular Artists */
+
+.circle{
+    border-radius: 50%;
+}
+
+/* Footer */
+
+footer{
+    height: 80px;
+    background-color: #282828;
+}
