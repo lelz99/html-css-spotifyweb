@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 640px) {
     .sidebar{
-        flex-basis: 220px;
+        flex-basis: 200px;
     }
 
     #logo-small{
@@ -27,5 +27,17 @@
 
     .categories > li{
         flex-basis: calc(100% / 3);
+    }
+}
+
+/* Version Md 878px */
+
+@media screen and (min-width: 878px) {
+    .categories > li{
+        flex-basis: calc(100% / 5);
+    }
+    
+    .col{
+        flex-basis: calc(100% / 4);
     }
 }
