@@ -17,11 +17,15 @@
         margin: 5px 0;
     }
 
-    ul > li > p{
+    .playlist{
+        display: block;
+    }
+
+    .side-footer a:last-child{
         display: block;
     }
     
-    #plus{
+    .icon a:last-child{
         display: block;
     }
     
