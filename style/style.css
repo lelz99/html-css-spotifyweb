@@ -39,9 +39,9 @@ a{
     text-decoration: none;
 }
 
-
 h2{
     color: white;
+    margin-bottom: 5px;
 }
 
 h3{
@@ -52,7 +52,7 @@ h3{
 }
 
 h4{
-    margin-top: 10px;
+    margin: 10px 0 5px;
     color: #7a7d81;
     font-size: 0.8rem;
 }
@@ -60,7 +60,6 @@ h4{
 .col > h4{
     text-align: center;
 }
-
 
 /* Top Content */
 
@@ -123,7 +122,11 @@ ul > li > p{
 }
 
 #plus{
-    display: none;
+    padding: 0 10px;
+    font-size: 2.5rem;
+
+    background-color: #5f5f5f;
+    color: black;
 }
 
 #download{
@@ -146,6 +149,13 @@ ul > li > p{
     display: none;
 }
 
+.line-left{
+    height: 30px;
+    border-left: 2px solid #adff2f;
+    margin-left: -15px;
+    display: none;
+}
+
 /* Main */
 
 main{
@@ -157,7 +167,7 @@ main{
 /* header */
 
 header{
-    height: 60px;
+    height: 80px;
     background-color: #080b12;
     opacity: 0.7;
 
@@ -165,6 +175,18 @@ header{
     top: 0;
     right: 0;
     left: 0;
+
+    text-align: right;
+    padding: 20px 10px;
+}
+
+.btn{
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 /* Categories */
@@ -185,6 +207,10 @@ header{
 .categories > li > a{
     color: #7b7e82;
     margin: 20px auto;
+}
+
+span{
+    border-bottom: 2px solid #adff2f;
 }
 
 /* Recently Played */
@@ -234,7 +260,7 @@ footer{
     gap: 10px;
 }
 
-.info-song > p{
+.name > p{
     font-size: .6rem;
     font-weight: bold;
     color: #737373;
@@ -259,7 +285,6 @@ footer{
     align-self: center;
     gap: 3px;
 }
-
 
 /* Player */
 

@@ -12,6 +12,7 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
@@ -24,9 +25,9 @@
                 <!-- Logo -->
                 <div class="icon">
                     <ul>
-                        <li><img id="logo-big" src="img/logo.svg" alt=""></li>
-                        <li><img id="logo-small" src="img/logo-small.svg" alt=""></li>
-                        <li><img src="img/home.svg" alt=""><p>Home</p></li>
+                        <li><a href="#"><img id="logo-big" src="img/logo.svg" alt=""></a></li>
+                        <li><a href="#"><img id="logo-small" src="img/logo-small.svg" alt=""></a></li>
+                        <li class="sium"><span class="line-left"></span><img id="home" src="img/home.svg" alt=""><p>Home</p></li>
                         <li><img src="img/search.svg" alt=""><p>Cerca</p></li>
                         <li><img src="img/libreria.svg" alt=""><p>La tua libreria</p></li>
                     </ul>
@@ -35,7 +36,7 @@
                 <div class="playlist">
                     <ul>
                         <li><h5>Playlist</h5></li>
-                        <li><img id="plus" src="img/search.svg" alt=""><p>Crea Playlist</p></li>
+                        <li class=""><p id="plus">+</p><p>Crea Playlist</p></li>
                         <li><p>Crea Playlist</p></li>
                         <li><p>Crea Playlist</p></li>
                         <li><p>Crea Playlist</p></li>
@@ -56,14 +57,14 @@
         <main>
             <!-- Header-->
             <header>
-                <a href="#"></a>
+                <a class="btn" href="#">EFFETTUA L'UPGRADE</a>
             </header>
 
             <div class="padding">
                 <section>
                     <!-- Categories -->
                     <ul class="categories">
-                        <li><a href="#">IN EVIDENZA</a></li>
+                        <li><a href="#">IN E<span>VIDE</span>NZA</a></li>
                         <li><a href="#">PODCAST</a></li>
                         <li><a href="#">CLASSIFICHE</a></li>
                         <li><a href="#">GENERI E MOOD</a></li>
@@ -151,8 +152,10 @@
             <img id="sinister-small" src="img/sinister.jpeg" alt="">
             <div class="info-song">
                 <h6>Sinister</h6>
-                <p>Brano</p>
-                <p>Nome</p>
+                <div class="name">
+                    <p>Brano</p>
+                    <p>Nome</p>
+                </div>
             </div>
             <div class="icon-song">
                 <i class="fa-regular fa-heart "></i>

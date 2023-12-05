@@ -36,6 +36,23 @@
     .categories > li{
         flex-basis: calc(100% / 3);
     }
+
+    .name{
+        display: flex;
+        gap: 2px;
+    }
+
+    .icon-right > i{
+        margin-right: 10px;
+    }
+
+    #home{
+        margin-left: 5px
+    }
+
+    .line-left{
+        display: block;
+    }
 }
 
 /* Version Md 878px */
@@ -47,6 +64,10 @@
     
     .col{
         flex-basis: calc(100% / 4);
+    }
+
+    .icon-song{
+        display: block;
     }
 }
 
