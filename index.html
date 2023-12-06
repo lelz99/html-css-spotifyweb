@@ -15,6 +15,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hover.css">
     <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
@@ -36,7 +37,7 @@
                 <div class="playlist">
                     <ul>
                         <li><h5>Playlist</h5></li>
-                        <li><a id="plus" href="#">+</a><a href="#">Crea Playlist</a></li>
+                        <li class="sium"><a id="plus" href="#">+</a><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
@@ -57,14 +58,14 @@
         <main>
             <!-- Header-->
             <header>
-                <a class="btn" href="#">EFFETTUA L'UPGRADE</a>
+                <div class="button"><a class="btn" href="#">EFFETTUA L'UPGRADE</a></div>
             </header>
 
-            <div class="padding">
+            <div class="content">
                 <section>
                     <!-- Categories -->
                     <ul class="categories">
-                        <li><a href="#">IN E<span>VIDE</span>NZA</a></li>
+                        <li><a href="#">IN EVIDENZA</a></li>
                         <li><a href="#">PODCAST</a></li>
                         <li><a href="#">CLASSIFICHE</a></li>
                         <li><a href="#">GENERI E MOOD</a></li>
@@ -78,33 +79,45 @@
                     <h2>Recently Played</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="card"><img src="img/metal_lifting.jpg" alt=""></div>
+                            <div class="card"><img src="img/metal_lifting.jpg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>Heavy Metal</h3>
                             <h4>Subtitle</h4>
                         </div>
                         <div class="col">
-                            <div class="card"><img src="img/stranger.jpeg" alt=""></div>
+                            <div class="card"><img src="img/stranger.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>Stranger Things, Vol. 1 (a Netflix original Series Soundtrack)</h3>
                             <h4>Kyle Dixon & Michael Stein</h4>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="img/aquietplace.jpeg" alt=""></div>
+                                <img src="img/aquietplace.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>A quiet place</h3>
                             <h4>Subtitle</h4>
                         </div>
                         <div class="col">
-                            <div class="card"><img src="img/split.jpeg" alt=""></div>
+                            <div class="card"><img src="img/split.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>Split</h3>
                             <h4>Subtitle</h4>
                         </div>
                         <div class="col">
-                            <div class="card"><img src="img/cure.jpeg" alt=""></div>
+                            <div class="card"><img src="img/cure.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>A cure for wellness</h3>
                             <h4>Subtitle</h4>
                         </div>
                         <div class="col">
-                            <div class="card"><img src="img/sinister.jpeg" alt=""></div>
+                            <div class="card"><img src="img/sinister.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>Sinister</h3>
                             <h4>Subtitle</h4>
                         </div>
@@ -117,11 +130,15 @@
                     <h4>Più ascolti, più accurati saranno i suggerimenti.</h4>
                     <div class="row">
                         <div class="col">
-                            <div class="card"><img src="img/radar.jpeg" alt=""></div>
+                            <div class="card"><img src="img/radar.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>Release Radar</h3>
                         </div>
                         <div class="col">
-                            <div class="card"><img src="img/mixdaily.jpeg" alt=""></div>
+                            <div class="card"><img src="img/mixdaily.jpeg" alt="">
+                                <div class="play"><i class="fa-regular fa-circle-play fa-2xl"></i></div>
+                            </div>
                             <h3>Dally Mix 1</h3>
                         </div>
                     </div>
@@ -153,13 +170,13 @@
             <div class="info-song">
                 <h6>Sinister</h6>
                 <div class="name">
-                    <p>Brano</p>
-                    <p>Nome</p>
+                    <a href="#">Brano</a>
+                    <a href="#">Nome</a>
                 </div>
             </div>
             <div class="icon-song">
-                <i class="fa-regular fa-heart "></i>
-                <i class="fa-regular fa-folder "></i>
+                <a href="#"><i class="fa-regular fa-heart "></i></a>
+                <a href="#"><i class="fa-regular fa-folder "></i></a>
             </div>
         </div>
 
@@ -179,7 +196,9 @@
             <div class="player-time">
                 <p>0:25</p>
                 <div class="player-bar">
-                    <div class="progress-bar"></div>
+                    <div class="progress-bar">
+                        <div class="marker"></div>
+                    </div>
                 </div>
                 <p>4:35</p>
             </div>
@@ -194,7 +213,9 @@
             </div>
             <div>
                 <div class="line-volume">
-                    <div class="progress-bar"></div>
+                    <div class="progress-bar">
+                        <div class="marker"></div>
+                    </div>
                 </div>
             </div>
         </div>

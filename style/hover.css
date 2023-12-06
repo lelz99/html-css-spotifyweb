@@ -1,0 +1,47 @@
+/* Generics Hover */
+
+ul > li > a:hover{
+    color: white;
+}
+
+/* Sidebar */
+
+#plus:hover{
+    background-color: white;
+}
+
+.button:hover{
+    margin-right: 90px;
+    transform: scale(1.1);
+}
+
+/* Recently Played */
+
+.card:hover .play{
+    display: flex;
+}
+
+/* Footer */
+
+.name a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.icon-song i:hover{
+    color: white;
+}
+
+.fa-circle-play:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.progress-bar:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.progress-bar:hover .marker{
+    display: block;
+}
